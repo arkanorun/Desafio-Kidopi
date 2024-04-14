@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin: 0 auto;
+    width: 75%;
+    border: 3px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+select {
+    width: auto;
+    margin: 0;
+    border: 1px solid black;
+    margin-left: -12px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+button {
+    width: auto;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 30%;
+    padding: 5px;
+    box-shadow: 5px 4px 26px 1px rgba(0, 0, 0, 0.24);
+
+}
+
+.btn:active {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.0);
+    transform: translateY(-0.5px);
+}
+
+fieldset {
+    border: 3px solid grey;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgb(189, 248, 254);
+}
+
+.grid-container {
+    border: 3px solid grey;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 85%;
+    background-color: rgb(189, 248, 254);
+    box-shadow: 5px 4px 26px 1px rgba(0, 0, 0, 0.24);
+    color: black;
+}
+
+.grid-container>div {
+    border: 3px solid grey;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#panel {
+    background-color: rgb(217, 243, 249);
+    border-radius: 8px;
+    box-shadow: 5px 4px 26px 1px rgba(0, 0, 0, 0.24);
+}
