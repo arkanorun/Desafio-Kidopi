@@ -21,7 +21,7 @@
 
     &nbsp
 
-    <button id="btn">
+    <button id="btn" class="btn">
 
         ok
 
@@ -98,6 +98,11 @@
                             somaMortos += item.Mortos
                             somaConfirmados += item.Confirmados
                         }
+                        if (somaConfirmados < 1) {
+                            deathRate1 = 0
+                        } else {
+                            deathRate1 = somaMortos / somaConfirmados
+                        }
                         deathRate1 = somaMortos / somaConfirmados
                     }
 
@@ -122,7 +127,12 @@
                                     somaMortos += item.Mortos
                                     somaConfirmados += item.Confirmados
                                 }
-                                deathRate2 = somaMortos / somaConfirmados
+
+                                if (somaConfirmados < 1) {
+                                    deathRate2 = 0
+                                } else {
+                                    deathRate2 = somaMortos / somaConfirmados
+                                }
 
                                 totalDeathRate = (deathRate1 - deathRate2)
 
