@@ -1,5 +1,2 @@
 vendor
 .env
-DifferenceInDeathRate.php
-CountryConnection.php
-CountryController.php
