@@ -37,6 +37,7 @@ PASS_DB=''
 ## Acesso no navegador
 utilize a seguinte URL em seu navegador (foi utilizado o google chrome para o projeto)
 http://localhost/kidopi/ para listar casos confirmados e mortes em país.
+http://localhost/Desafio_Kidopi/?action=getCountry/ para listar a diferença da taxa de morte entre dois países.
 
 
 ![Sem título](https://github.com/arkanorun/Desafio-Kidopi/assets/124944071/9c092104-f0e8-43b7-a6d4-d896f3874b81)
