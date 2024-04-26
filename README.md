@@ -1,4 +1,5 @@
 # Projeto PHP KIDOPI
+
 Este é um projeto PHP com css, htm e JS que utiliza o XAMPP como ambiente de desenvolvimento local, para rodar o APACHE e o MYSQL.
 
 Requisitos:
@@ -9,10 +10,12 @@ Banco de dados (o banco escolhido pela emprea para resolução deste desafio foi
 Usamos o editor de código-fonte vscode para a execução dos comandos.
 
 ## Rodando o Script do Banco de Dados
+
 Certifique-se de que o servidor do banco de dados esteja em execução (o banco de dados que você escolher).
 Execute o script Dump.sql (que está na raiz do projeto) em qualquer servidor MySQL.
 
 ## Configuração pra rodar o projeto localmente
+
 Clone este repositório para o diretório do seu servidor local (se estiver usando o XAMPP sugerimos que o local seja na pasta htdocs).
 
 vá até o diretório do projeto no terminal, .
@@ -35,10 +38,9 @@ USER_DB=root
 PASS_DB=''
 
 ## Acesso no navegador
-utilize a seguinte URL em seu navegador (foi utilizado o google chrome para o projeto)
-http://localhost/kidopi/ para listar casos confirmados e mortes em país.
-http://localhost/Desafio_Kidopi/?action=getCountry/ para listar a diferença da taxa de morte entre dois países.
 
+utilize a seguinte URL em seu navegador (foi utilizado o google chrome para o projeto)
+[http://localhost/](http://localhost/kidopi)[Desafio_Kidopi](http://localhost/Desafio_Kidopi/?action=getCountry) para listar casos confirmados e mortes em país.
+[http://localhost/Desafio_Kidopi/?action=getCountry](http://localhost/Desafio_Kidopi/?action=getCountry) para listar a diferença da taxa de morte entre dois países.
 
 ![Sem título](https://github.com/arkanorun/Desafio-Kidopi/assets/124944071/9c092104-f0e8-43b7-a6d4-d896f3874b81)
-
